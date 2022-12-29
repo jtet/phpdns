@@ -1,5 +1,5 @@
 {
-  "name": "purplepixie/phpdns",
+  "name": "jtet/phpdns",
   "authors": [
     {
       "name": "David Cutting",
@@ -14,10 +14,11 @@
     }
   },
   "require": {
-    "php": ">=7.4"
+    "php": ">=8.2"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "vimeo/psalm": "^5.4"
   },
   "extra": {
     "branch-alias": {

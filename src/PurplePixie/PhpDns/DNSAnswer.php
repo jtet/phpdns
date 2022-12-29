@@ -29,7 +29,7 @@ class DNSAnswer implements \Countable, \Iterator
      */
     private array $results = array();
 
-    public function addResult(DNSResult $result)
+    public function addResult(DNSResult $result) : void
     {
         $this->results[] = $result;
     }
